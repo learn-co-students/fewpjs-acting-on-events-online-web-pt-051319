@@ -28,3 +28,5 @@ document.addEventListener('keydown', function(e) {
     moveDodgerRight()
   }
 })
+
+//good working functions. 
