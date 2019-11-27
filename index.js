@@ -20,7 +20,7 @@ function moveDodgerRight() {
 function moveDodgerUp() {
   var bottomNumbers = dodger.style.bottom.replace('px', '');
   var bottom = parseInt(bottomNumbers, 10)
-  if (bottom < 390) {
+  if (bottom < 380) {
     dodger.style.bottom = `${bottom + 1}px`
   }
 }
